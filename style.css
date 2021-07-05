@@ -7,7 +7,7 @@ h1{
     margin-top: 231px;
     font-size: 47px;
 }
-p{
+.first-pera{
     color: gray;
     font-size: smaller;
 }
@@ -43,6 +43,29 @@ p{
     color: white;
     font-weight: 400px;
     font-size: smaller;
-
-
+}
+.color{
+    color: gray;
+}
+.about{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.right-content{
+    margin-left: 150px;
+}
+.right-content img{
+    margin-top: 50px;
+    width: 60%;
+}
+h2{
+    margin-top: 150px;
+    font-size: 45px;
+}
+.secound-pera{
+    margin-right: 100px;
+}
+.background{
+    background-image: url(food-network-main/images/shapes/Frame\ 58.jpg);
 }
