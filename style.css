@@ -82,9 +82,8 @@ h2 {
 }
 .food-section {
   display: flex;
-  width: 1362px;
   height: auto;
-  margin-left: 80px;
+  margin-left: 5px;
 }
 .food {
   width: 30%;
@@ -155,11 +154,6 @@ footer {
 #review {
   font-size: large;
 }
-/*input[type="text"] {
-
-  border: 30px;
-  border-bottom: 2px solid red;
-}*/
 textarea {
   width: 100%;
   height: 70px;
