@@ -1,71 +1,154 @@
-body{
-    font-family: 'Alfa Slab One', cursive;
-    font-family: 'Castoro', serif;
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Castoro", serif;
+  font-family: "Poppins", sans-serif;
 }
-h1{
+/*h1 {
     margin-top: 231px;
     font-size: 47px;
+    color: rgb(75, 72, 72);
+  }*/
+.first-pera {
+  color: gray;
+  font-size: smaller;
 }
-.first-pera{
-    color: gray;
-    font-size: smaller;
+.orange {
+  color: orange;
 }
-.orange{
-    color: orange;
+.first-section {
+  display: flex;
 }
-.first-section{
- display: flex;
-    
+.half-side {
+  width: 50%;
 }
-.half-side{
-    width: 50%;
-   
-}
-.half-side img{
-    width: 100%;
-    
+.half-side img {
+  width: 100%;
 }
 .leftContent {
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 .leftContent h1 {
-    font-size: 51px;
-    line-height: 75px;
+  font-size: 51px;
+  line-height: 75px;
+  margin-top: 231px;
+  font-size: 47px;
+  color: rgb(75, 72, 72);
 }
-.section1-button{
-    
-    text-decoration: none;
-    background-image: linear-gradient(rgb(255, 102, 0),red);
-    padding: 20px 30px;
-    border-radius: 40px;
-    color: white;
-    font-weight: 400px;
-    font-size: smaller;
+.section1-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(255, 102, 0), red);
+  padding: 20px 30px;
+  border-radius: 40px;
+  color: white;
+  font-weight: 400px;
+  font-size: smaller;
 }
-.color{
-    color: gray;
+.color {
+  color: gray;
 }
-.about{
-    display: flex;
-    margin-top: 100px;
-    
+.about {
+  display: flex;
+  margin-top: 100px;
 }
-.right-content{
-    margin-left: 150px;
+.right-content {
+  margin-left: 150px;
 }
-.right-content img{
-    margin-top: 50px;
-    width: 60%;
+.right-content img {
+  margin-top: 50px;
+  width: 60%;
 }
-h2{
-    margin-top: 150px;
-    font-size: 45px;
+h2 {
+  margin-top: 150px;
+  font-size: 45px;
 }
-.secound-pera{
-    margin-right: 100px;
+.secound-pera {
+  margin-right: 100px;
 }
-.background{
-    background-image: url(food-network-main/images/shapes/Frame\ 58.jpg);
+.background {
+  background-image: url(food-network-main/images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#gray {
+  color: rgb(59, 57, 57);
+  text-align: center;
+}
+#do {
+  line-height: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.food-section {
+  display: flex;
+  width: 1362px;
+  height: auto;
+  margin-left: 80px;
+}
+.food {
+  width: 30%;
+  height: auto;
+  border-radius: 30px;
+  margin-right: 50px;
+  box-shadow: 10px 10px 40px rgb(190, 167, 167);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 20px 20px 20px 20px;
+}
+
+#first {
+  width: 100%;
+}
+.movement {
+  margin-left: -20px;
+}
+#second {
+  width: 100%;
+}
+#third {
+  width: 100%;
+}
+h3 {
+  font-size: 25px;
+}
+
+.recipie h1 {
+  margin-top: 110px;
+}
+h1 {
+  font-size: 40px;
+}
+.new-div {
+  text-align: center;
+  display: flex;
+  background-position: center;
+  margin: 250px 140px;
+  box-shadow: 10px 10px 50px rgb(184, 162, 162);
+  padding: 40px;
+  border-radius: 30px;
+}
+.margin {
+  margin: -20px;
+}
+.new-div div {
+  width: 33.33%;
+}
+#orange-color {
+  color: rgba(235, 58, 46, 0.87);
+}
+#gray-color {
+  color: rgb(83, 79, 79);
+}
+footer {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  padding: 80px;
+}
+#headerfont {
+  font-size: 45px;
+}
+#setcolor {
+  color: white;
 }
