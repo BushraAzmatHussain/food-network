@@ -4,10 +4,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 /*h1 {
-    margin-top: 231px;
-    font-size: 47px;
-    color: rgb(75, 72, 72);
-  }*/
+      margin-top: 231px;
+      font-size: 47px;
+      color: rgb(75, 72, 72);
+    }*/
 .first-pera {
   color: gray;
   font-size: smaller;
@@ -124,9 +124,9 @@ h1 {
   text-align: center;
   display: flex;
   background-position: center;
-  margin: 250px 140px;
+  margin: 180px 140px;
   box-shadow: 10px 10px 50px rgb(184, 162, 162);
-  padding: 40px;
+  padding: 57px;
   border-radius: 30px;
 }
 .margin {
